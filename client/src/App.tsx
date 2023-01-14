@@ -36,10 +36,10 @@ export default class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        <Segment style={{ padding: '8em 0em' }} vertical>
+        <Segment style={{ padding: '8em 0em', backgroundImage: `url("https://img4.thuthuatphanmem.vn/uploads/2020/12/25/anh-background-don-sac-cho-powerpoint_101108908.png")` }} vertical>
           <Grid container stackable verticalAlign="middle">
             <Grid.Row>
-              <Grid.Column width={16}>
+              <Grid.Column width={16}>  
                 <Router history={this.props.history}>
                   {this.generateMenu()}
 
